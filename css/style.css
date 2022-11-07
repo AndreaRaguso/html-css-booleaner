@@ -1,1 +1,24 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
 
+.evidence{
+    background-color: yellow;
+}
+
+.table-title{
+    background-color: rgb(5, 162, 235);
+    color:white;
+}
+
+header{
+    background: url("../img/pattern.png");
+    background-color: rgb(9, 168, 241);
+    background-size: auto 150px;
+}
+
+.logo{
+    height: 80px;
+    margin: 20px 10px;
+}
