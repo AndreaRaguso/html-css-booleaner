@@ -1,6 +1,10 @@
-html,body{
+*{
     margin: 0;
     padding: 0;
+}
+
+main{
+    margin: 10px;
 }
 
 .evidence{
@@ -21,4 +25,34 @@ header{
 .logo{
     height: 80px;
     margin: 20px 10px;
+}
+
+h1{
+    font-size: 60px;
+    margin: 15px;
+}
+
+.info{
+    color: gray;
+    font-size: 20px;
+}
+
+.info a{
+    text-decoration: none;
+    color: rgb(0, 174, 255);
+}
+
+#data{
+    font-size: 15px;
+}
+
+.photo{
+    margin: 5px;
+    margin-left: 0;
+}
+
+article{
+    font-size: 20px;
+    margin: 15px;
+    margin-left: 0;
 }
