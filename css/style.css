@@ -14,6 +14,7 @@ main{
 .table-title{
     background-color: rgb(5, 162, 235);
     color:white;
+    text-align: left;
 }
 
 header{
@@ -29,12 +30,14 @@ header{
 
 h1{
     font-size: 60px;
-    margin: 15px;
+    margin: 5px;
+    margin-bottom: 0;
 }
 
 .info{
     color: gray;
     font-size: 20px;
+    margin: 5px;
 }
 
 .info a{
@@ -55,4 +58,43 @@ article{
     font-size: 20px;
     margin: 15px;
     margin-left: 0;
+}
+
+.list{
+    margin: 15px;
+    font-size: 18px;
+}
+
+table{
+    border-spacing: 0;
+    width: 100%;
+    font-size: 20px;
+}
+
+td{
+    width: 30px;
+}
+
+.colored{
+    background-color: rgba(47, 195, 240, 0.4);
+}
+
+.img1{
+    background-image: url("../img/monitor.jpg");
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.img2{
+    background-image: url("../img/graph.jpg");
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
 }
