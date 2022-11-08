@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-main{
-    margin: 0 auto;
-    width: 80%;
-
-}
-
 .evidence{
     background-color: yellow;
 }
@@ -99,4 +93,9 @@ td{
     color: white;
     font-size: 20px;
     padding: 10px;
+}
+
+.container{
+    margin: 0 auto;
+    width: 80%;
 }
